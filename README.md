@@ -19,7 +19,7 @@ if __name__ == '__main__':
     
     print(
         '\n'.join([
-            f"{x['artist']} - {x['album']}
+            f"{x['artist']} - {x['album']}"
             for x in results
         ])
     )
